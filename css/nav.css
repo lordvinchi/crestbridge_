@@ -1,0 +1,216 @@
+ul.nav  {margin: 0; padding: 0; text-decoration:none;}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 10px auto;
+}
+ul.nav li {margin:0;}
+
+.toggleMenu {
+    display:  none;
+    padding: 5px 15px 12px 15px;
+}
+a.toggleMenu {color:White !important;}
+
+.nav-img {float:left;}
+.nav {
+    *zoom: 1;
+	list-style: none;     
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 9em;
+}
+.nav a {
+	*zoom: 1;
+	margin:0 px;
+    padding: 10px 8px;
+	background:none;
+    color:#434446;
+	/* text-shadow: 0px 1px 1px #4d4d4d; */
+	font-size:16px;
+	font-weight:700;
+	text-decoration:none;
+		-o-transition:.0;
+-ms-transition:.0;
+-moz-transition:.0;
+-webkit-transition:.0;
+/* ...and now for the proper property */
+transition:0;
+}
+
+.nav li ul a {font-size:14px;}
+
+.nav a {
+    *zoom: 1;
+}
+
+
+.nav li:nth-child(1) a{background-color:#b052ab; border-right:2px solid #434446;}
+.nav li:nth-child(2) a{background-color:#b052ab; border-right:2px solid #FEFCE3;}
+.nav li:nth-child(3) a{background-color:#b052ab; border-right:2px solid #FEFCE3;} /*#ED2024; */
+.nav li:nth-child(4) a{background-color:#b052ab; border-right:2px solid #FEFCE3;}
+.nav li:nth-child(5) a{background-color:#b052ab; border-right:none;}
+
+
+.nav li:nth-child(1) a:hover{background-color:#434446;}
+.nav li:nth-child(2) a:hover{background-color:#434446;}
+.nav li:nth-child(3) a:hover{background-color:#434446;} /*F62E34; */
+.nav li:nth-child(4) a:hover{background-color:#434446;}
+.nav li:nth-child(5) a:hover{background-color:#434446;}
+
+
+.nav li:nth-child(1) li a{background-color:#434446; border-right:none;}
+.nav li:nth-child(2) li a{background-color:#434446; border-right:none;}
+.nav li:nth-child(3) li a{background-color:#434446; border-right:none;} /*#DC0405; */
+.nav li:nth-child(4) li a{background-color:#434446; border-right:none;}
+.nav li:nth-child(5) li a{background-color:#434446; border-right:none;}
+
+
+.nav li:nth-child(1) li a:hover{background-color:#D4D5D3;}
+.nav li:nth-child(2) li a:hover{background-color:#D4D5D3;}
+.nav li:nth-child(3) li a:hover{background-color:#D4D5D3;} /*#ED2024; */
+.nav li:nth-child(4) li a:hover{background-color:#D4D5D3;}
+.nav li:nth-child(5) li a:hover{background-color:#D4D5D3;}
+
+
+.nav li {
+    position: relative;
+	width:19.9%;
+	text-align:center;
+}
+
+.nav li li {width:100%; text-align:left;}
+
+.nav > li {
+    float: left;
+    border-top: 0px solid #104336;
+}
+.nav > li > .parent {
+	padding-right:15px;
+    background-image: url("../images/standard/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.nav > li > .parent a {   
+padding-right:15px;
+background-image: url("../images/standard/downArrow.png");
+background-repeat: no-repeat;
+background-position: right;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+/* ...and now for the proper property */
+transition:.5s;}
+
+.nav > li > a {
+    display: block;
+}
+.nav li  ul {
+    position: absolute;
+/*	border-top:solid 5px white; */
+/*	border-bottom:solid 5px white; */
+    left: -9999px;
+	margin-top:0;
+	width:16.5em;
+	z-index:9999;
+}
+
+.nav > li.hover > ul {
+    left: 0;
+	margin:0;
+}
+
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #7DDEFB;
+	color:White;
+    position: relative;
+    z-index:100;
+    border-top: 0px solid #BDEFFD;
+	margin:0;
+	margin-top:-1px;
+	padding:10px 10px;
+}
+.nav li li li a {
+    background:Black;
+    z-index:200;
+    border-top: 0px solid #1d7a62;
+}
+
+/* .nav li  ul:after {
+content: "";
+position: absolute;
+top: -10px;
+left: 15px;
+border-style: solid;
+border-width: 0 10px 10px;
+border-color: #7DDEFB transparent;
+display: block;
+width: 0;
+z-index: 1;
+} */
+
+.nav li li  ul {
+    position: absolute;
+	border-top:solid 0px Gainsboro;
+	border-bottom:solid 0px Gainsboro;
+    left: -9999px;
+	margin-top:0;
+	width:16em;
+	z-index:2;
+}
+
+
+.nav a:hover {background:orange; color:#FFFFFF;}
+
+.nav > li > .parent:hover { background-image: url("../images/standard/downArrow-active.png"); background-repeat: no-repeat; background-position: right; padding-right:15px;}
+
+.nav-selected {background-color:orange;}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+		background:orange;
+		width:100%;
+		border-bottom:solid 1px ivory;
+    }
+	.nav li a {color:#434446;}
+	
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("../images/standard/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100% !important;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+	
+	.nav li ul {width:100%;} 
+
+}

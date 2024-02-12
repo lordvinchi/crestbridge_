@@ -1,0 +1,472 @@
+html,body { height:100%; 
+}
+body { font-family: 'Ubuntu', sans-serif;
+font-size:14px;
+color:Black;
+font-weight: 400;
+-webkit-font-smoothing: antialiased; 
+}
+
+body#tinymce {
+  background:none;
+  height:auto;
+}
+
+body {background:url(../images/purpletick.png) no-repeat; background-size:cover; /* background-attachment:fixed; */}
+	.loginstrap {background-color:#434446;}
+	.contleft, .contright, .contright a {color: #434446;}
+	.row {background:rgba(255,255,255,0.8);}
+
+p{padding:6px;}
+
+a { text-decoration:none;}
+a:hover {-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+/* ...and now for the proper property */
+transition:.5s;
+color:#6666A4;}
+/* */
+
+.hd-br {line-height:0px;}
+
+/* useful */
+.topmargin {margin-top:50px;}
+
+/* Gradient color1 - color2 - color1 */
+		
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #e5e5e5;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #e5e5e5, #f0f0f0); 
+    background-image:    -moz-linear-gradient(left, #f0f0f0, #e5e5e5, #f0f0f0); 
+    background-image:     -ms-linear-gradient(left, #f0f0f0, #e5e5e5, #f0f0f0); 
+    background-image:      -o-linear-gradient(left, #f0f0f0, #e5e5e5, #f0f0f0); 
+}
+/* */
+
+.bg {background-color:White;}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+.footer {padding:15px 0;}
+.footer ul {padding:20px 10px 0 10px; margin:0;}
+.footer ul li {font-weight:normal; font-size:12px; font-weight:400; margin-bottom:5px;}
+.footer li:nth-of-type(1) {font-size:13px; color:Black; font-weight:normal; margin-bottom:10px;}
+/* ******** */
+
+
+ul.bxslider li img {max-height:300px;}
+
+
+.topnav ul {margin:0; padding:0;}
+.topnav ul li {display:inline; color:Ivory;}
+.topnav li {padding:0; margin:0; font-size:14px; line-height:14px; font-weight:700;}
+.topnav a {color:white;}
+
+/* .coaster {width:100%; 
+padding:0;
+background:url(../images/bannerbg2.jpg) no-repeat center fixed;  -moz-background-size:contain;  -webkit-background-size: contain;   -o-background-size: contain;  background-size: cover;
+background-color:#90C;
+color:White;} */
+
+.coaster-slider {background:rgba(0,0,0,0.7); height:280px; position:relative; right:-40px;}
+
+
+.tri-down {
+
+    /* Styling block element, not required */
+    position: relative;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #999;
+  }
+
+  /* Required for Down Triangle */
+  .tri-down:before, .tri-down:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom: 0;
+  }
+
+  /* Stroke */
+  .tri-down:before {
+    bottom: -32px;
+    right: 21px;
+
+    /* If 1px darken stroke slightly */
+    border-top-color: #777;
+    border-width: 31px;
+  }
+
+  /* Fill */
+  .tri-down:after {
+    bottom: -30px;
+    right: 22px;
+    border-top-color:white;
+    border-width: 30px;
+  }
+  
+    /* Fill */
+  .tri-down2:after {
+    bottom: -30px;
+    right: 22px;
+    border-top-color:#FEFCE3;
+    border-width: 30px;
+  }
+  
+  
+
+.bubble 
+{
+position: relative;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 32px 27px 0;
+border-color: #77787B transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -32px;
+right: 30px;
+}
+
+.bubble-purp:after {border-color: white transparent;}
+.bubble-green:after {border-color: white transparent;}
+.bubble-red:after {border-color: white transparent;}
+.bubble-yellow:after {border-color: white transparent;}
+
+.triangle { background: green;
+  border: 2px solid white;
+  border-width: 2px 2px 0 0;
+  transform: rotate(-45deg);}
+
+.advert {background:rgba(69,183,100,0.8); margin-right:0; margin-left:55px;}
+
+/* 
+* Example style!
+* You can do whatever the hell you want on your site :-)
+*/
+
+#tweet ul {margin:auto;}
+
+.user, .tweet, .timePosted {
+  float:left;
+}
+
+.user { 
+width:100%;
+}
+
+.tweet {clear:left;
+  color:Whitesmoke;
+}
+
+.tweet a {color:White; font-style:italic;}
+
+p.tweet, .tweet p {padding:0 15px; max-width:90%;}
+
+.timePosted {
+ float:right;
+  margin-right:2%; color:Grey;
+  font-size:9px;
+}
+
+.user {
+  clear:left;}
+
+.user a {
+ width: 100%;
+}
+
+.user span span {
+  width:100%;
+  display:block;
+  margin-top:10px;
+}
+
+.user img, .user a > span {
+  float:left;
+}
+
+.interact {
+	clear:both;
+  width:100%;
+  margin-top:-7px;
+  text-align:center;
+}
+
+.interact a {
+  margin-right:20px;
+}
+
+.user a > span {
+  margin-left:10px;
+}
+
+.media img {
+  max-width:100%;
+}
+
+.twitter_retweet_icon{background: url(../images/standard/twitter-sprites.png) no-repeat -25px 0;	display:inline-block;	width: 25px;	height: 25px;}
+.twitter_reply_icon {background: url(../images/standard/twitter-sprites.png) no-repeat 0 0;	display:inline-block;	width: 25px;	height: 25px;}
+.twitter_fav_icon {background: url(../images/standard/twitter-sprites.png) no-repeat -50px 0;	display:inline-block;	width: 25px;	height: 25px;}
+
+.twitter_retweet_icon:hover {background: url(../images/standard/twitter-sprites.png) no-repeat -25px -25px;}
+.twitter_reply_icon:hover {background: url(../images/standard/twitter-sprites.png) no-repeat 0 -25px;}
+.twitter_fav_icon:hover {background: url(../images/standard/twitter-sprites.png) no-repeat -50px -25px;}
+
+/* box */
+.grid-news {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid-news figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 100%;
+	max-height: 360px;
+	width: 48%;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid-news figure img {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid-news figure figcaption {
+
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid-news figure figcaption::before,
+.grid-news figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid-news figure figcaption,
+.grid-news figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid-news figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid-news figure h2 {
+	font-weight: inherit;
+	color:Whitesmoke;
+	padding:10px;
+}
+
+.grid-news figure h2 span {
+	font-weight: 800;
+}
+
+.grid-news figure h2,
+.grid-news figure p {
+	margin: 0;
+}
+
+.grid-news figure p {
+	letts-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Individual effects */
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+figure.effect-julia {
+	background: #2f3238;
+}
+
+figure.effect-julia img {
+	max-width: 100%;
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	transition: opacity 1s, transform 1s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-julia figcaption {
+	text-align: left;
+}
+
+figure.effect-julia h2 {
+	position: relative;
+	padding: 10px;
+	border:none;
+	margin-bottom:0px;
+	background: rgba(250,27,105,0.8);
+	bottom:-43px;
+}
+
+figure.effect-julia p {
+	display: inline-block;
+	margin: 0 0 0.25em;
+margin-right:15px;
+	padding: 0.4em 1em;
+	padding-left:10px;
+	padding-right:10px;
+	color: Whitesmoke;
+	text-transform: none;
+	font-weight: 500;
+	font-size: 75%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-360px,0,0);
+	transform: translate3d(-360px,0,0);
+}
+
+figure.effect-julia p:first-child {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.effect-julia p:nth-of-type(2) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-julia p:nth-of-type(3) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:first-child {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+figure.effect-julia:hover p:nth-of-type(2) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:nth-of-type(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-julia:hover img {
+	opacity: 0.4;
+	-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);
+}
+
+figure.effect-julia:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+.cs-screen {margin-left:-30px; margin-top:-1px;}
+/***************/
+.maintxt{margin-top:-10px;}
+.maintxt img {max-width:100%; padding:5px;}
+.maintxt p {line-height:22px; padding:10px 10px !important;}
+.maintxt p span {font-size:16px !important;}  /* override CMS font-size */
+.maintxt ul {list-style:inside; margin-left:10px; margin-bottom:5px;}
+.maintxt a {text-decoration:underline;}
+
+.sidebar-links h2 {font-size:26px; padding-left:15px;}
+.sidebar-links li a:hover {font-weight:bold;}
+
+.sidebar-boxes:nth-of-type(1) {margin-top:0px;}
+.sidebar-boxes {margin-top:40px;}
+.sidebar-boxes p {padding:0 10px 10px 10px; font-size:12px;}
+.sidebar-boxes h3 {color:white; font-size:18px; line-height:20px;}
+
+.maintxt table td {background-color:#fff; border:solid 1px #e1e1e1;}
+.maintxt table {max-width:100%;}
+
+.sidebar-boxes ul {padding:0 10px 5px 10px; margin:0;}
+.sidebar-boxes ul li {margin:10px 0;}
+.sidebar-boxes li a {font-size:12px;}
+
+.sidebar-box1 h3 {background:#F06544;}
+.sidebar-box2 h3 {background:#ACD373;}
+.sidebar-box3 h3 {background:#7DDEFB;}
+
+.nav-links ul {list-style:inside square;  text-indent: -1em; padding-left: 2em; color:#434446; padding:0 15px 15px 30px;}
+.nav-links li a {color:#434446;}
+
+
+

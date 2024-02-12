@@ -1,0 +1,69 @@
+/* =================================================
+   CREATED (C) BY ALEX CICAN           NOVEMBER 2010 (UPDATED: DECEMBER 2013)
+   HTTP://ALEXCICAN.COM
+   ================================================= */
+
+.hide--first > *:first-child {
+  display: none;
+}
+.hide--second > *:last-child {
+  display: none;
+}
+.message {
+display:none;
+  font-size: 1.5em;
+  text-align: center;
+  width: 800px;
+  padding: 3% 1%;
+  float: left;
+  color:white;
+  position:fixed;
+  bottom:50%;
+    right: 50%;
+    transform: translateX(50%) translateY(50%);
+  z-index:9998;
+  -webkit-box-shadow: 0 0 2em hsla(0, 0%, 0%, 1.0);
+    -moz-box-shadow: 0 0 2em hsla(0, 0%, 0%, 1.0);
+    box-shadow: 0 0 2em hsla(0, 0%, 0%, 1.0);
+	background:#434446 url(../images/popup/xmas.png) no-repeat right; background-size:contain;
+}
+
+.message p {line-height:2em !important;}
+
+.message:last-of-type {
+  float: right;
+}
+.close {
+  color: #FFF !important;
+  position: absolute;
+  text-transform: lowercase;
+  right: 775px;
+  font-size: 2em;
+  top: 10px;
+  line-height: 1;
+  border: none !important;
+  margin-top:-25px;
+  background:#434446;
+  padding:0 10px 5px 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+ /* 
+  color: #fff !important;
+  position: absolute;
+  text-transform: lowercase;
+  right: 20px;
+  font-size: 1.5em;
+  top: 10px;
+  line-height: 1;
+  border: none !important;
+  */
+}
+
+.close:hover {background:#FDF275;}
+
+@media only screen and (max-width: 768px)  {
+	
+	.message{width: 290px; font-size:12px;  height:100%;}
+	.close{right:260px;}
+}
