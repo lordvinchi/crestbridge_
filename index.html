@@ -107,7 +107,7 @@ content: "\2014 \2009";
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #FDF275;
+  background-color: #b052ab;
 -webkit-animation:loader-inner 4s infinite ease-in;
    -moz-animation:loader-inner 4s infinite ease-in;
     -ms-animation:loader-inner 4s infinite ease-in;
@@ -260,16 +260,16 @@ a:hover.tooltips span {
                 <div style="text-align:center;"><a class="toggleMenu" href="#" style="color:Black !important; border:solid 0px #e1e1e1; padding-top:10px; text-align:center;"><img src="images/standard/mob-nav.png" alt="nav"> Menu</a></div>
                    <ul class="nav">
                     <li><a href="how-to-join.html">Banking</a>
-                    	<ul>
+                    	<!-- <ul>
                         <li><a href="prepaid-visa.html">Prepaid Visa</a></li>
                         <li><a href="managing-money.html">Managing Money</a></li>
                         <li><a href="landlords-and-tenants.html">Cost of Living advice</a></li>
 						            <li><a href="mobile-app.html">Mobile Phone App</a></li>
                         <li><a href="fraud-prevention.html">Fraud Prevention</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li><a href="our-savings.html">Savings</a>
-                      <ul>
+                      <!-- <ul>
                       <li><a href="our-savings.html">Our Savings</a></li>
                       <li><a href="payroll-deduction-scheme.html">Payroll Deduction Scheme</a></li>
                       <li><a href="junior-accounts.html">Junior Accounts</a></li>
@@ -279,10 +279,10 @@ a:hover.tooltips span {
                       <li><a href="deposits-and-withdrawals.html">Deposits &amp; Withdrawals</a></li>
                       <li><a href="is-my-money-safe.html">Is My Money Safe &quest;</a></li>
                       <li><a href="dividend-rates.html">Dividend Rates</a></li>
-                      </ul>
+                      </ul> -->
                   </li>
-                        <li><a href="#">Loans</a>
-                        <ul>
+                        <li><a href="investing.html">Investing</a>
+                        <!-- <ul>
                         <li><a href="our-loans.html">Our Loans</a></li>
                         <li><a href="affordability-and-credit-checks.html">Affordability &amp; Credit Checks</a></li>
                         <li><a href="https://hillingdon.cuaccount.com/login/" target="_blank">Apply Online</a></li>
@@ -290,16 +290,19 @@ a:hover.tooltips span {
                         <li><a href="make-a-repayment.html">Make a Repayment</a></li>
                         <li><a href="difficulty-making-repayments.html">Difficulty Making Repayments</a></li>
                         <li><a href="brent-residents-support-fund.html">Brent Residents Support Fund</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
-                    <li><a href="how-to-join.html">How To Join</a>
-                    	<ul>
-                        <li><a href="who-can-join.html">Who Can Join &quest;</a></li>
-                        <li><a href="how-to-join.html">How To Join</a></li>
-                        </ul>
+                    <li><a href="insurance.html">Insurance</a>
+                    	<!-- <ul>
+                        <li><a href="prepaid-visa.html">Prepaid Visa</a></li>
+                        <li><a href="managing-money.html">Managing Money</a></li>
+                        <li><a href="landlords-and-tenants.html">Cost of Living advice</a></li>
+						            <li><a href="mobile-app.html">Mobile Phone App</a></li>
+                        <li><a href="fraud-prevention.html">Fraud Prevention</a></li>
+                        </ul> -->
                     </li>
                     <li><a href="about-us.html">About Us</a>
-                  		<ul>
+                  		<!-- <ul>
                         <li><a href="about-us.html">About Us</a></li>
                         <li><a href="offices-and-drop-in-points.html">Offices &amp; Drop In Points</a></li>
                         <li><a href="how-to-join.html">How To Join</a></li>
@@ -311,7 +314,7 @@ a:hover.tooltips span {
                         <li><a href="complaints.html">Complaints</a></li>
                         <li><a href="brent-mutual.html">Brent Mutual</a></li>
                         <li><a href="brent-and-ealing.html">Credit Union of Brent and Ealing</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
 
             </ul>
@@ -397,10 +400,18 @@ $(".prodesc").text(prod);
   <!-- -->  
           <div>
               <div class="show-mobile"><br></div>
-              <input name="borrowingvalue" id="borrowingvalue" type="range" min="50" max="15000" step="50" value="250" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeslider" id="js-rangeslider-0"><div class="rangeslider__fill" style="width: 100.751px;"></div><div class="rangeslider__handle" style="left: 83.2508px;"></div></div> <div class="show-mobile"><br></div>  <span class="zyk">£<output class="outout" id="op1">4950</output></span>
+              <input name="borrowingvalue" id="borrowingvalue" type="range" min="50" max="15000" step="50" value="250" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;">
+              <div class="rangeslider" id="js-rangeslider-0">
+                <div class="rangeslider__fill" style="width: 100.751px;"></div>
+                <div class="rangeslider__handle" style="left: 83.2508px;"></div></div> 
+                <div class="show-mobile"><br></div>  
+                <span class="zyk">£<output class="outout" id="op1">4950</output></span>
           </div>
           <div>
-              <input name="borrowingtime" id="borrowingtime" type="range" min="1" max="60" step="1" value="12" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeslider" id="js-rangeslider-1"><div class="rangeslider__fill" style="width: 64.8559px;"></div><div class="rangeslider__handle" style="left: 47.3559px;"></div></div> <div class="show-mobile"><br></div> <span class="zyk"><output class="outout" id="op2">12</output> <span style=" font-size:12px;">months</span></span>
+              <input name="borrowingtime" id="borrowingtime" type="range" min="1" max="60" step="1" value="12" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;">
+              <div class="rangeslider" id="js-rangeslider-1"><div class="rangeslider__fill" style="width: 64.8559px;"></div><div class="rangeslider__handle" style="left: 47.3559px;"></div></div> 
+              <div class="show-mobile"><br></div> <span class="zyk">
+              <output class="outout" id="op2">12</output> <span style=" font-size:12px;">months</span></span>
           </div>
   </form>
   
@@ -476,14 +487,14 @@ $(".prodesc").text(prod);
     	<ul class="bxslider">
         <li style="padding:20px 30px;">
         	<blockquote>
-                I've been a member for 16 years. The staff are always helpful and I know my money is safe and secure with the Credit Union.
-                <cite>Paul (Member)</cite>
+                I've been a member for 6 years. The staff are always helpful and I know my money is safe and secure with Crestbridge
+                <cite>Phil (Member)</cite>
             </blockquote>
         </li>
         <li style="padding:20px 30px;">
         	<blockquote>
-                Great staff, great service. They were really helpful at explaining my savings and loans options.
-                <cite>Gary (Member)</cite>
+                Great staff, great service. They were really helpful at explaining my savings and first investment options.
+                <cite>Sally (Member)</cite>
             </blockquote>
         </li>
         </ul>
