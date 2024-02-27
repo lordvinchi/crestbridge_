@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/londoncb.co.uk/';
+$config['base_url'] = 'http://localhost/crestbridge/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/londoncb.co.uk/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.html';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
